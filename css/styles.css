@@ -332,3 +332,50 @@ button {
     width: 280px;
     justify-self: center;
 }
+
+/* =========== Gift =========== */
+.gift__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.gift__card {
+    display: grid;
+    position: relative;
+
+    background-color: var(--container-color);
+    box-shadow: 0 4px 16px hsla(355, 25%, 15%, 0.1);
+    border-radius: 0.75rem;
+
+    padding: 1.5rem 1rem 1rem;
+}
+
+.gift__img {
+    width: 100px;
+    justify-self: center;
+    margin-bottom: var(--mb-0-25);
+    transition: 0.3s;
+}
+
+.gift__icon {
+    font-size: 1.25rem;
+    color: var(--first-color);
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.gift__price {
+    font-size: var(--h3-font-size);
+}
+
+.gift__title {
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+}
+
+.gift__card:hover .gift__img {
+    transform: translateY(-0.25rem);
+}
