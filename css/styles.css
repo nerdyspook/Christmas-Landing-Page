@@ -237,6 +237,7 @@ button {
 .home__container {
     padding-top: 1.5rem;
     row-gap: 1.5rem;
+    height: 85vh;
 }
 
 .home__img {
@@ -274,4 +275,32 @@ button {
 
 .button:hover {
     background-color: var(--first-color-alt);
+}
+
+/* ========== Giving ========= */
+.giving__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 1rem;
+}
+
+.giving__content {
+    text-align: center;
+}
+
+.giving__img {
+    width: 100px;
+    transition: 0.3s;
+}
+
+.giving__img:hover {
+    transform: translateY(-0.25rem);
+}
+
+.giving__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.giving__description {
+    font-size: var(--small-font-size);
 }
