@@ -239,6 +239,11 @@ button {
     box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.1);
 }
 
+/* Active Link */
+.active-link {
+    color: var(--first-color);
+}
+
 /* ========= Home ========== */
 .home__container {
     padding-top: 1.5rem;
